@@ -50,6 +50,7 @@ function writeToDocument(url) {
 
         data.forEach(function(item) {
             var dataRow = [];
+            console.log(item);
             
             Object.keys(item).forEach(function(key) {
                 var rowData = item[key].toString();
